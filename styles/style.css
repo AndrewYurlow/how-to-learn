@@ -225,12 +225,41 @@
   left: 0;
 }
 
+.kaufman{
+  position: relative;
+  overflow: hidden;
+  background-color: #1f1f1f;
+}
+
+.section-title_theme_dark{
+  margin: 90px auto 0;
+  line-height: 69px;
+  color: white;
+}
+
+.section-subtitle_theme_dark{
+  margin: 20px auto 0;
+  color: white;
+}
+
+.table_theme_dark{
+  margin: 0 auto 90px;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 1;
+}
+
+.kaufman__triangle{
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  right: -210px;
+  top: 0;
 }
 
 div{
