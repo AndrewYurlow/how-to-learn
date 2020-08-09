@@ -149,10 +149,11 @@
 }
 
 .table{
+  margin: 0;
+  padding: 0;
+  list-style: none;
   display: flex;
   width: 1100px;
-  margin-top: 0;
-  margin-bottom: 0;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -317,13 +318,13 @@
   margin-bottom: 16px;
 }
 
-.navigation{
+.footer__navigation{
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.navigation__link{
+.footer__link{
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
