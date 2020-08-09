@@ -78,8 +78,6 @@
 .description{
   position: relative;
   display: flex;
-
-  border: red solid 1px;
 }
 
 .two-columns{
@@ -125,13 +123,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  border: red solid 1px;
 }
 
 .section-title{
-  border: red solid 1px;
-
+  position: relative;
   width: 60%;
   margin-top: 100px;
   margin-bottom: 20px;
@@ -143,8 +138,7 @@
 }
 
 .section-subtitle{
-  border: red solid 1px;
-
+  position: relative;
   width: 60%;
   margin: 0 auto;
   text-align: center;
@@ -155,8 +149,6 @@
 }
 
 .table{
-  border: red solid 1px;
-
   display: flex;
   width: 1100px;
   margin-top: 0;
@@ -168,8 +160,6 @@
 }
 
 .table__cell{
-  border: red solid 1px;
-
   display: flex;
   flex-direction: column;
   margin: 60px 0 0;
@@ -177,8 +167,6 @@
 }
 
 .table__heading{
-  border: red solid 1px;
-
   margin: 0;
   line-height: 1.15;
   font-size: 24px;
@@ -240,7 +228,6 @@
 }
 
 .kaufman{
-  border: red solid 1px;
   position: relative;
   overflow: hidden;
   background-color: #1f1f1f;
@@ -276,10 +263,11 @@
   right: -210px;
   top: 0;
   background-image: url('../images/kaufman-triangle.svg');
+  background-position: center;
+  background-size: cover;
 }
 
 .footer{
-  border: red solid 1px;
   display: flex;
   min-height: 350px;
   background-color: #1f1f1f;
@@ -294,7 +282,6 @@
 .footer__column{
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
 }
 
 .footer__column_content_copyright{
@@ -321,8 +308,6 @@
   font-size: 18px;
   font-weight: bold;
   color: white;
-
-  border: 1px solid red;
 }
 
 .footer__column-links{
@@ -330,8 +315,6 @@
   flex-direction: column;
   margin-top: 20px;
   margin-bottom: 16px;
-
-  border: 1px solid red;
 }
 
 .navigation{
