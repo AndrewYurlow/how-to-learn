@@ -4,9 +4,9 @@
   font-weight: normal;
   text-decoration: none;
   color: white;
+  transition: ease .3s;
 }
 
 .footer__link:hover{
   opacity: 0.4;
-  transition: ease .3s;
 }
