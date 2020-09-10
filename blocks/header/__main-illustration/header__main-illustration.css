@@ -1,8 +1,17 @@
 .header__main-illustration{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 765px;
-  height: 608px;
   z-index: 1;
+  width: 100%;
+  object-fit: cover;
+  grid-column: 2/3;
+  grid-row: 2/4;
+  align-self: flex-end;
+
+  border: 1px solid red;
 }
+@media screen and (max-width: 768px){
+  .header__main-illustration{
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+}
+
