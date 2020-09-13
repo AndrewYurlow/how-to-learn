@@ -1,0 +1,31 @@
+@keyframes rotation{
+  from{
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+.header__picture{
+  position: relative;
+  grid-column: 2/3;
+  grid-row: 2/4;
+  overflow: hidden;
+}
+.header__picture::before{
+  position: absolute;
+  z-index: 0;
+  content: '';
+  bottom: 0;
+  right: 0;
+  width: 70%;
+  height: 80%;
+  background-color: #2f80ed;
+  animation: rotation 20s infinite linear;
+}
+@media screen and (max-width: 768px){
+  .header__picture{
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+}
