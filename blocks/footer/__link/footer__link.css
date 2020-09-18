@@ -4,9 +4,15 @@
   font-weight: normal;
   text-decoration: none;
   color: white;
-  transition: ease .3s;
+  transition: opacity ease .3s;
 }
 
 .footer__link:hover{
   opacity: 0.4;
+}
+@media screen and (max-width: 1024px){
+  .footer__link{
+    line-height: normal;
+    font-size: 1rem;
+  }
 }

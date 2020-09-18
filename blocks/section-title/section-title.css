@@ -9,3 +9,16 @@
   font-weight: bold;
   z-index: 1;
 }
+@media screen and (max-width: 1023px){
+  .section-title{
+    line-height: normal;
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 768px){
+  .section-title{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+  }
+}

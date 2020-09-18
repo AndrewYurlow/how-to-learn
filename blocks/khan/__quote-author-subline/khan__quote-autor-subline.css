@@ -4,3 +4,16 @@
   font-size: 24px;
   font-weight: normal;
 }
+@media screen and (max-width: 1024px){
+  .khan__quote-autor-subline{
+    line-height: normal;
+    font-size: 18px;
+    margin-bottom: 34px;
+  }
+}
+@media screen and (max-width: 768px){
+  .khan__quote-autor-subline{
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+}

@@ -1,9 +1,35 @@
 .feynman__title{
-  width: 648px;
+  max-width: 60%;
   margin: 0 auto 70px;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
   z-index: 1;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, .4);
+}
+@media screen and (max-width: 1280px){
+  .feynman__title{
+    font-size: 6rem;
+  }
+}
+@media screen and (max-width: 1024px){
+  .feynman__title{
+    font-size: 4.7rem;
+    margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 768px){
+  .feynman__title{
+    max-width: 55%;
+    font-size: 3.2rem;
+    line-height: normal;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 425px){
+  .feynman__title{
+    max-width: 60%;
+    font-size: 2.5rem;
+  }
 }

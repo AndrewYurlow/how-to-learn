@@ -5,4 +5,23 @@
   font-size: 36px;
   font-weight: normal;
   z-index: 1;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, .4);
+}
+@media screen and (max-width: 1280px){
+  .feynman__subtitle{
+    line-height: 2.5rem;
+    font-size: 2.1rem;
+  }
+}
+@media screen and (max-width: 1024px){
+  .feynman__subtitle{
+    line-height: 2rem;
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 768px){
+  .feynman__subtitle{
+    line-height: 1.5rem;
+    font-size: 1.6rem;
+  }
 }

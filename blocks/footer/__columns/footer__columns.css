@@ -4,3 +4,16 @@
   margin: 60px auto 40px;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1024px){
+  .footer__columns{
+    margin: 40px auto 20px;
+  }
+}
+@media screen and (max-width: 768px){
+  .footer__columns{
+    flex-direction: column;
+    flex-flow: column-reverse;
+    margin: 20px auto 10px;
+  }
+}

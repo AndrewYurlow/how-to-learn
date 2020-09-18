@@ -3,3 +3,15 @@
   font-size: 30px;
   font-weight: normal;
 }
+@media screen and (max-width: 1024px){
+  .khan__author{
+    line-height: 2;
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 768px){
+  .khan__author{
+    line-height: 1.8;
+    font-size: 1.4rem;
+  }
+}

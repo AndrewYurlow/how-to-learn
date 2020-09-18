@@ -1,6 +1,12 @@
 .description{
   position: relative;
   display: flex;
-  margin-top: 100px;
+  width: 100%;
   background: #ffffff;
 }
+@media screen and (max-width: 768px){
+  .description{
+    margin-top: 50px;
+  }
+}
+

@@ -3,3 +3,13 @@
   line-height: 69px;
   color: white;
 }
+@media screen and (max-width: 1024px){
+  .section-title_theme_dark{
+    line-height: normal;
+  }
+}
+@media screen and (max-width: 768px){
+  .section-title_theme_dark{
+    margin-top: 20px;
+  }
+}

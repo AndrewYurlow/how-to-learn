@@ -1,15 +1,54 @@
 .feynman__link{
-  position: absolute;
-  top: 50%;
-  right: 48px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  align-self: flex-end;
   text-decoration: none;
   color: #000;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  transition: ease .3s;
+  transition: opacity ease .3s;
+  z-index: 1;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, .4);
 }
 
 .feynman__link:hover{
   opacity: 0.4;
+}
+@media screen and (max-width: 1280px){
+  .feynman__link{
+    margin-top: 50px;
+    line-height: 2.5rem;
+    font-size: 2.1rem;
+  }
+}
+@media screen and (max-width: 1024px){
+  .feynman__link{
+    margin-top: 65px;
+    line-height: 2rem;
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 768px){
+  .feynman__link{
+    margin-top: 150px;
+    margin-bottom: 250px;
+    line-height: 1.5rem;
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 425px){
+  .feynman__link{
+    margin-top: 90px;
+  }
+}
+@media screen and (max-width: 375px){
+  .feynman__link{
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 320px){
+  .feynman__link{
+    margin-top: 75px;
+  }
 }

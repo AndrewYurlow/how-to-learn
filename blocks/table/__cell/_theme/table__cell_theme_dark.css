@@ -1,7 +1,11 @@
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-right: 0;
-  margin-top: 80px;
+  margin: 40px auto;
   z-index: 1;
+}
+@media screen and (max-width: 768px){
+  .table__cell_theme_dark{
+    margin: 20px auto;
+  }
 }

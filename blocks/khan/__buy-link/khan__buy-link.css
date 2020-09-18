@@ -5,9 +5,24 @@
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
-  transition: ease .3s;
+  transition: opacity ease .3s;
 }
 
 .khan__buy-link:hover{
   opacity: 0.4;
+}
+@media screen and (max-width: 1024px){
+  .khan__buy-link{
+    margin-top: 12px;
+    margin-left: 0;
+    line-height: 2.1;
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 768px){
+  .khan__buy-link{
+    margin-top: 6px;
+    line-height: 1.8;
+    font-size: 1.4rem;
+  }
 }

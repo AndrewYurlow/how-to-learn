@@ -6,3 +6,13 @@
   margin-bottom: 100px;
   background: #ffffff;
 }
+@media screen and (max-width: 1024px){
+  .digits{
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 768px){
+  .digits{
+    margin-bottom: 20px;
+  }
+}

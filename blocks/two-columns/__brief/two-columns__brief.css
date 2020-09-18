@@ -1,8 +1,20 @@
 .two-columns__brief{
   margin: 0;
-  width: 175px;
+  min-width: 15%;
+  padding-right: 20px;
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+}
+@media screen and (max-width: 1023px){
+  .two-columns__brief{
+    font-size: 1rem;
+    line-height: normal;
+  }
+}
+@media screen and (max-width: 768px){
+  .two-columns__brief{
+    margin-bottom: 20px;
+  }
 }
